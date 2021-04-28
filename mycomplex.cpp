@@ -91,7 +91,7 @@ Complex Complex :: operator / (const double & aRval)
     return Result;
 }
 
-Complex &Complex :: operator+=  ( const   Complex & arval)
+Complex & Complex :: operator+=  ( const   Complex & arval)
 {
     Re += arval.Re;
     Im += arval.Im;
@@ -187,6 +187,6 @@ Complex operator * (const double & aLval, const Complex & a)
 {
     Complex r;
     r.Re = aLval * a.Re;
-    r.Im =a Lval * a.Im;
+    r.Im = a Lval * a.Im;
     return r;
 }
