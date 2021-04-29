@@ -5,6 +5,8 @@
 using namespace std;
 
 class Complex
+
+
 {
        double Re;
        double Im;
